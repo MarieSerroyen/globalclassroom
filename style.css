@@ -16,7 +16,7 @@ a {
     background-color: white;
     height: 10vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     position: sticky;
     justify-content: space-between;
