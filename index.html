@@ -8,12 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#dreamcity">Dream City</a></li>
-            <li><a href="#meetings">Meetings</a></li>
-        </ul>
+    <nav class="nav">
+        <div class="menu">
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="#dreamcity"><b>Dream City</b></a> 
+              </li>
+              <li class="nav-item">
+                <a href="#meetings"><b>Meetings</b></a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="dropdown"> 
+            <button class="dropdown-button">
+                <img class="dropdown-icon" src="./images/menu-burger.svg" alt="Dropdown arrow">
+            </button>
+            <div class="dropdown-menu">
+                <div>
+                    <a href="index.html"><b>Home</b></a>
+                </div>
+                <div>
+                    <a href="#dreamcity"><b>Dream City</b></a>  
+                </div>
+                <div>
+                    <a href="#meetings"><b>Meetings</b></a>
+                </div>
+                
+            </div>
+        </div>
     </nav>
 
     <div id="title-page">
@@ -44,5 +70,6 @@
     <div id="meetings">
 
     </div>
+    <script  type="module" src="./javascript/dropdown.js"></script>
 </body>
 </html>
