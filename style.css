@@ -102,3 +102,10 @@ a {
 #intro {
     background-color: var(--maincolor);
 }
+
+/*MEETINGS*/
+
+.meeting video {
+    max-width: 100%;
+    padding: 10px;
+}
