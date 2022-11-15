@@ -114,6 +114,11 @@ a {
     padding: 10px;
 }
 
+.activity-images {
+    max-width: 100%;
+    padding: 10px;
+}
+
 /*MEETINGS*/
 .meeting h3 {
     padding-left: 0.5em;
