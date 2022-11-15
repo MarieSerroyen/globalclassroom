@@ -274,11 +274,15 @@ h1:nth-child(2) {
     }
 
     #intro h2 {
-        padding-left: 2em;
+        padding-left: 1em;
+        font-size: 30px;
     }
 
     #intro p {
-        padding-left: 10em;
+        padding-left: 6em;
+        padding-right: 3em;
+        font-size: 18px;
+        line-height: 2em;
     }
 
     /*DREAMCITY*/
