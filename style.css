@@ -98,14 +98,22 @@ a {
 }
 
 /*INTRO*/
+#title-page {
+    padding-left: 0.5em;
+}
 
 #intro {
     background-color: var(--maincolor);
+    padding-left: 0.5em;
 }
 
 /*MEETINGS*/
+.meeting h3 {
+    padding-left: 0.5em;
+}
 
 .meeting video {
     max-width: 100%;
+    height: auto;
     padding: 10px;
 }
