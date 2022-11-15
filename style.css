@@ -239,6 +239,18 @@ h1:nth-child(2) {
         font-size: medium;
     }
 
+    #intro {
+        padding: 6em 5em;
+    }
+
+    #intro h2 {
+        padding-left: 2em;
+    }
+
+    #intro p {
+        padding-left: 10em;
+    }
+
     /*DREAMCITY*/
 
     .dreamcity-video {
