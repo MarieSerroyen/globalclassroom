@@ -261,6 +261,14 @@ h1:nth-child(2) {
         margin-right: auto;
     }
 
+    .activities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 1em;
+    }
+    
     /*MEETINGS*/
 
     #meetings {
