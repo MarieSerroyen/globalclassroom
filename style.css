@@ -185,6 +185,26 @@ h1:nth-child(2) {
     padding: 10px;
 }
 
+/*THE TEAM*/
+
+#teammates {
+    background-color: var(--maincolor);
+}
+
+.profile-img {
+    max-width: 50%;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.profile {
+    padding: 3em 0;
+    color: black;
+    text-align: center;
+    font-size: 1.1em;
+    outline: 0;
+}
+
 @media(min-width: 55em) {
     /*NAV*/
 
