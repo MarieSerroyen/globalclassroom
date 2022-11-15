@@ -122,7 +122,7 @@ h1:nth-child(2) {
 
 #intro {
     background-color: var(--maincolor);
-    padding: 1em 0.5em;
+    padding: 2em 1em;
 }
 
 /*DREAMCITY*/
@@ -180,4 +180,38 @@ h1:nth-child(2) {
     max-width: 100%;
     height: auto;
     padding: 10px;
+}
+
+@media(min-width: 55em) {
+    .dropdown {
+        display: none;
+    }
+
+    .nav {
+        border-bottom: none;   
+        background-color: var(--maincolor); 
+        margin-left: 20em;  
+        margin-right: 20em; 
+        margin-top: 2em;
+        border: solid 1px var(--maincolor);
+        border-radius: 100px;
+        opacity: 0.8;
+    }
+
+    .menu {
+        display: inline;
+        background-color: var(--maincolor);
+        margin: 0 auto;
+    }
+
+    .nav-item{
+        list-style: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 150px;
+    }
 }
