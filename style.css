@@ -105,6 +105,9 @@ a {
     padding-left: 0.5em;
     text-align: center;
     padding-bottom: 2em;
+    background-image: url("images/example-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
