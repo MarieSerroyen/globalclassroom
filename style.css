@@ -191,6 +191,16 @@ h1:nth-child(2) {
     background-color: var(--maincolor);
 }
 
+#teammates h4 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+}
+
+#teammates h5 {
+    font-size: 20px;
+}
+
 .profile-img {
     max-width: 50%;
     border: 1px;
