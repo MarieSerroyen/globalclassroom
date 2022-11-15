@@ -103,6 +103,15 @@ a {
 /*INTRO*/
 #title-page {
     padding-left: 0.5em;
+    text-align: center;
+}
+
+h1 {
+    padding-right: 2em;
+}
+
+h1:nth-child(2) {
+    padding-left: 4em;
 }
 
 #intro {
