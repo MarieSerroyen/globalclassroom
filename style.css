@@ -243,5 +243,11 @@ h1:nth-child(2) {
     #meetings {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-left: 9em;
+        margin-bottom: 5em;
+    }
+
+    .meeting video {
+        max-width: 80%;
     }
 }
