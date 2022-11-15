@@ -256,8 +256,8 @@ h1:nth-child(2) {
     }
 
     h1 {
-        padding-right: 6em;
         padding-bottom: 0.2em;
+        font-size: 60px;
     }
     
     h1:nth-child(2) {
