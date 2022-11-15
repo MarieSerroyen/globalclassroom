@@ -183,6 +183,8 @@ h1:nth-child(2) {
 }
 
 @media(min-width: 55em) {
+    /*NAV*/
+
     .dropdown {
         display: none;
     }
@@ -200,7 +202,6 @@ h1:nth-child(2) {
 
     .menu {
         display: inline;
-        background-color: var(--maincolor);
         margin: 0 auto;
     }
 
@@ -213,5 +214,24 @@ h1:nth-child(2) {
         justify-content: space-around;
         align-items: center;
         gap: 150px;
+    }
+
+    /*INTRO*/
+
+    #title-page {
+        padding-top: 5em;
+    }
+
+    h1 {
+        padding-right: 6em;
+        padding-bottom: 0.2em;
+    }
+    
+    h1:nth-child(2) {
+        padding-left: 8em;
+    }
+    
+    .team {
+        padding-top: 10em;
     }
 }
