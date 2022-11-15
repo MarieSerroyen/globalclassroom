@@ -236,6 +236,7 @@ h1:nth-child(2) {
     
     .team {
         padding-top: 10em;
+        font-size: medium;
     }
 
     /*MEETINGS*/
