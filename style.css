@@ -303,4 +303,15 @@ h1:nth-child(2) {
     .meeting video {
         max-width: 80%;
     }
+
+    /*THE TEAM*/
+    .mexican-students {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .belgian-students {
+        display: flex;
+        flex-direction: row;
+    }
 }
