@@ -313,13 +313,25 @@ h1:nth-child(2) {
     }
 
     /*THE TEAM*/
+    #teammates h4 {
+        font-size: 30px;
+    }
+
     .mexican-students {
         display: flex;
         flex-direction: row;
     }
 
+    .mexican-students img {
+        max-width: 30%;
+    }
+
     .belgian-students {
         display: flex;
         flex-direction: row;
+    }
+
+    .profile-img {
+        max-width: 40%;
     }
 }
