@@ -104,7 +104,14 @@ a {
 
 #intro {
     background-color: var(--maincolor);
-    padding-left: 0.5em;
+    padding: 1em 0.5em;
+}
+
+/*DREAMCITY*/
+.dreamcity-video video {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
 
 /*MEETINGS*/
