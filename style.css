@@ -288,7 +288,6 @@ h1 span {
 .dreamcity-video iframe {
     width: 100%;
     max-width: 90vw;
-    height: 100%;
 }
 
 /*.container {
@@ -339,8 +338,6 @@ h1 span {
 
 .meeting iframe {
     max-width: 100%;
-    height: auto;
-    padding: 10px;
 }
 
 /*THE TEAM*/
