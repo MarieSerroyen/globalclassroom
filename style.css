@@ -159,6 +159,10 @@ h1 span {
     margin: 0 0;
 }
 
+.left {
+    margin: 0 5%;
+}
+
 .right {
     display: flex;
     align-items: center;
@@ -175,13 +179,6 @@ h1 span {
     text-align: center;
 }
 
-.activity-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 10%;
-}
-
-
 .ai--imgs {
     display: grid;
     margin: 2em 5%;
@@ -192,8 +189,8 @@ h1 span {
 
 .ai--imgs div {
     width: 360px;
+    max-width: 90vw;
     height: 360px;
-    max-width: 100%;
 }
 
 .ai--imgs div.midjourney {
@@ -246,7 +243,7 @@ h1 span {
     }
 
 .right img {
-    width: 400px;
+    width: 480px;
 }
 
 .ai--imgs img {
@@ -268,7 +265,9 @@ h1 span {
     display: block;
     max-width: 100%;
     padding: 10px;
+    border: 1px solid black;
 }
+
 
 /*.overlay {
     position: absolute;
@@ -388,7 +387,17 @@ h1 span {
 
     .left-right-container {
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
+        gap: 24px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .left {
+        margin: 0 10%;
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
     }
     
 
@@ -419,24 +428,18 @@ h1 span {
         justify-items: center;
         grid-auto-flow: row;
         margin: 0 10%;
+        padding: 0;
     }
 
-    .activity-images {
-        border: 1px solid black;
-    }
+
+    
 
     .img-container img {
         margin-bottom: 1em;
     }
 
-    .activities a {
-        margin: 0;
-        padding: 0;
-    }
-
     .ai--imgs {
         display: grid;
-        margin: 2em 5%;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(8, 1fr);
         grid-column-gap: 12px;
@@ -444,19 +447,19 @@ h1 span {
         margin-bottom: 4rem;
         }
 
+        .ai--imgs div.midjourney {
+            height: 800px;
+        }
+
     .ai--imgs div {
-        height: 360px;
-        max-width: 100%;
-    }
-    
-    .ai--imgs div.midjourney {
-        height: 732px;
+        height: 100%;
+        width: 100%;
+        background-position: bottom;
     }
     
 
     .div1 { 
         grid-area: 1 / 1 / 3 / 2; 
-        width: 360px;
 
     }
     .div2 { 
@@ -467,7 +470,7 @@ h1 span {
     }
     .div3, .ai--imgs div.div3 { 
         grid-area: 3 / 1 / 5 / 3;
-        width: 744px;
+        width: 100%;
  
 
     }
