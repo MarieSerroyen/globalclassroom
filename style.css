@@ -156,7 +156,7 @@ h1 span {
 }
 
 .intro {
-    margin: 5%;
+    margin: 0 0;
 }
 
 .right {
@@ -321,10 +321,6 @@ h1 span {
     text-align: center;
     padding-top: 40px;
     font-size: 24px;
-}
-
-#teammates p {
-    font-size: 20px;
 }
 
 .profile-img {
@@ -541,7 +537,7 @@ h1 span {
         flex-direction: row;
     }
 
-    .profile-img {
+    .belgian-students img {
         max-width: 40%;
     }
 }
