@@ -285,8 +285,9 @@ h1 span {
 }
 
 /*DREAMCITY*/
-.dreamcity-video video {
+.dreamcity-video iframe {
     width: 100%;
+    max-width: 90vw;
     height: 100%;
 }
 
@@ -336,7 +337,7 @@ h1 span {
     padding-left: 0.5em;
 }
 
-.meeting video {
+.meeting iframe {
     max-width: 100%;
     height: auto;
     padding: 10px;
@@ -550,7 +551,7 @@ h1 span {
         margin-bottom: 5em;
     }
 
-    .meeting video {
+    .meeting iframe {
         max-width: 80%;
     }
 
